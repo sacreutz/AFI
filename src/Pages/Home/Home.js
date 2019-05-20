@@ -4,7 +4,7 @@ import Header from "../../Components/Header/Header";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="content-box">
       <Header />
       <div>Welcome!</div>
     </div>

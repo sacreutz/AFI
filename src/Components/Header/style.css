@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  background: #00dfcf;
+  padding: 2px;
+  padding-left: 8px;
+}
+
+.menu {
+  color: black;
+}
+
+.headerLink {
+  color: black;
+  font-weight: bold;
+}
+
+.logoLink {
+  color: black !important;
+  font-weight: bold;
+}
