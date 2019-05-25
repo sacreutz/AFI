@@ -86,16 +86,44 @@ class Header extends Component {
         {/* Links within hamburger nav */}
         <ul className="sidenav" id="mobile-demo">
           <li>
-            <a href="sass.html">Sass</a>
+            <a className="headerLink" href="sass.html">
+              Home
+            </a>
           </li>
           <li>
-            <a href="badges.html">Components</a>
+            <a className="headerLink" href="badges.html">
+              Symba
+            </a>
           </li>
           <li>
-            <a href="collapsible.html">Javascript</a>
+            <a className="headerLink" href="collapsible.html">
+              Resources
+            </a>
           </li>
           <li>
-            <a href="mobile.html">Mobile</a>
+            <a className="headerLink" href="mobile.html">
+              Why
+            </a>
+          </li>
+          <li>
+            <a className="headerLink" href="mobile.html">
+              Who
+            </a>
+          </li>
+          <li>
+            <a className="headerLink" href="mobile.html">
+              What
+            </a>
+          </li>
+          <li>
+            <a className="headerLink" href="mobile.html">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a className="headerLink" href="mobile.html">
+              Why
+            </a>
           </li>
         </ul>
       </div>
