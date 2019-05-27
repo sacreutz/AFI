@@ -1,0 +1,12 @@
+/* .pageWrapper {
+  margin-top: -7.25px;
+} */
+
+.card-panel {
+  margin-top: -7.25px !important;
+}
+
+.picture {
+  /* background: url("./images/994699.jpg"); */
+  object-fit: cover;
+}

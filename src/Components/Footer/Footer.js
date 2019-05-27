@@ -65,7 +65,7 @@ class Footer extends Component {
         {/* <div className="footer-copyright"> */}
         <div className="container footerText">
           © 2019 Artists Fighting Isolation
-          <a className=" text-lighten-4 right footerText" href="#!">
+          <a className="text-lighten-4 right footerText" href="#!">
             More Links
           </a>
         </div>
