@@ -32,12 +32,11 @@ class Jumbotron extends Component {
   render() {
     return (
       <div id="pageWrapper">
-        <div
-          className="card-panel grey lighten-2 picture"
-          style={this.jumbotronStyle}
-        >
+        <div className="card-panel grey lighten-2" style={this.jumbotronStyle}>
           <div className="container">
-            <img className="picture" src={pic} alt="afi" />
+            <div className="row">
+              <img className="picture" src={pic} alt="afi" />
+            </div>
             <h1>Page Title</h1>
             <p>Lorem ipsum dolor sit amet, consectetur...</p>
           </div>
