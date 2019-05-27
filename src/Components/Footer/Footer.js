@@ -25,8 +25,8 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="page-footer">
-        <div className="container">
+      <footer className="page-footer footer">
+        {/* <div className="container">
           <div className="row">
             <div className="col l6 s12">
               <h5 className="white-text">Footer Content</h5>
@@ -61,15 +61,15 @@ class Footer extends Component {
               </ul>
             </div>
           </div>
+        </div> */}
+        {/* <div className="footer-copyright"> */}
+        <div className="container footerText">
+          © 2019 Artists Fighting Isolation
+          <a className=" text-lighten-4 right footerText" href="#!">
+            More Links
+          </a>
         </div>
-        <div className="footer-copyright">
-          <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">
-              More Links
-            </a>
-          </div>
-        </div>
+        {/* </div> */}
       </footer>
     );
   }
