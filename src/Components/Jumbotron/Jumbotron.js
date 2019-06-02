@@ -2,18 +2,16 @@ import React, { Component } from "react";
 import "./style.css";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
-import pic from "./images/994699.jpg";
+
+// TODO: pass pic as a prop from the page, otherwise will have to create separate Jumbotron components for each page
+// TODO: presets w/ smaller, larger, text-only components
 
 class Jumbotron extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      image: require("./images/994699.jpg")
       //states here
-    };
-
-    const jumbotronStyle = {
-      paddingBottom: "150px",
-      boxShadow: "5px 5px 5px 5px rgba(169,169,169,0)"
     };
   }
 
@@ -32,16 +30,20 @@ class Jumbotron extends Component {
   render() {
     return (
       <div id="pageWrapper">
-        <div className="card-panel grey lighten-2" style={this.jumbotronStyle}>
+        <div
+          className="card-panel"
+          style={{
+            backgroundImage: `url(${this.state.image})`,
+            backgroundSize: "1000px 250px",
+            boxShadow: "5px 5px 5px 5px rgba(169,169,169,0)"
+          }}
+        >
           <div className="container">
-            <div className="row">
-              <img className="picture" src={pic} alt="afi" />
-            </div>
+            <div className="row" />
             <h1>Page Title</h1>
             <p>Lorem ipsum dolor sit amet, consectetur...</p>
           </div>
         </div>
-        <div className="container">Monkey</div>
       </div>
     );
   }

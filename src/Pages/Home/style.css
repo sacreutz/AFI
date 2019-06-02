@@ -1,3 +1,7 @@
 .content-box {
   min-height: 100vh;
 }
+
+.card-box {
+  text-align: center;
+}

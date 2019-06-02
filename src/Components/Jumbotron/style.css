@@ -6,8 +6,7 @@
   margin-top: -7.25px !important;
 }
 
-.picture {
-  /* background: url("./images/994699.jpg"); */
-  object-fit: cover;
-  width: 300px;
-}
+/* .background-pic {
+  background-image: url("./images/994699.jpg");
+  background-size: 1000px 250px;
+} */
