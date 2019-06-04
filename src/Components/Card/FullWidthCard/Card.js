@@ -34,7 +34,7 @@ class FullWidthCard extends Component {
             <div className="cardImage">
               <img
                 className="card-picture"
-                src={this.state.image}
+                src={this.props.value}
                 alt="bada bing bada boom"
               />
               <br />
