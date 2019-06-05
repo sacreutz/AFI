@@ -3,23 +3,16 @@ import "./style.css";
 
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import Jumbotron from "../../Components/Jumbotron/Jumbotron";
-import FullWidthCard from "../../Components/Card/FullWidthCard/Card";
 
-function Home() {
+function Symba() {
   return (
     <div className="page-wrapper">
       <div className="content-box">
         <Header />
-        <Jumbotron />
-        <div className="card-box">
-          <FullWidthCard />
-          <FullWidthCard />
-        </div>
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Symba;
