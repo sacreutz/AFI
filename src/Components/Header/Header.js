@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./style.css";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
+
+import Symba from "../../Pages/Symba/Symba";
 
 class Header extends Component {
   constructor(props) {
@@ -45,8 +48,9 @@ class Header extends Component {
                 </a>
               </li>
               <li>
-                <a className="headerLink" href="badges.html">
+                <a className="headerLink" href="...">
                   Symba
+                  {/* <Link to="/symba/">Symba</Link> */}
                 </a>
               </li>
               <li>
