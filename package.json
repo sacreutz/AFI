@@ -3,19 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-register": "^6.26.0",
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.0",
     "fs": "0.0.1-security",
     "materialize-css": "^1.0.0-rc.2",
+    "next": "^8.1.0",
     "path": "^0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "next": "cd client && cd src && next",
     "start": "react-scripts start",
     "client": "cd client && npm start",
     "server": "nodemon server.js",

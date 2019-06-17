@@ -1,17 +1,13 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Link from "next/link";
 import "./style.css";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css";
 
-import Symba from "../../Pages/Symba/Symba";
-
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      //states here
-    };
+    this.state = {};
   }
 
   componentDidMount() {
@@ -43,15 +39,14 @@ class Header extends Component {
             {/* Links */}
             <ul className="right hide-on-med-and-down">
               <li>
-                <a className="headerLink" href="sass.html">
+                <a className="headerLink" href="...">
                   Home
                 </a>
               </li>
               <li>
-                <a className="headerLink" href="...">
-                  Symba
-                  {/* <Link to="/symba/">Symba</Link> */}
-                </a>
+                <Link href="/symba">
+                  <a className="headerLink">Symba</a>
+                </Link>
               </li>
               <li>
                 <a className="headerLink" href="collapsible.html">
@@ -130,6 +125,10 @@ class Header extends Component {
             </a>
           </li>
         </ul>
+
+        {/* <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch> */}
       </div>
     );
   }
