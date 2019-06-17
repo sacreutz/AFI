@@ -1,8 +1,8 @@
 import Link from "next/link";
-
+import Header from "../Components/Header/Header";
 export default () => (
   <div>
-    hi
+    <Header />
     <Link href="/symba">
       <a>Symba</a>
     </Link>
